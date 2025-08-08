@@ -99,11 +99,11 @@ def saque():
         
 criar_conta()
         
-deposito()
-# Corrigindo a condição do while
-while quantidade_de_saque < 3 and limite_diario < 500:
-    saque()
+# deposito()
+# # Corrigindo a condição do while
+# while quantidade_de_saque < 3 and limite_diario < 500:
+#     saque()
 
-# Exibe o total de saque diário
-print(f"Total sacado no dia: R${limite_diario:.2f}")
+# # Exibe o total de saque diário
+# print(f"Total sacado no dia: R${limite_diario:.2f}")
 
